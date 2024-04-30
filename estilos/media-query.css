@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias, pesquisar sobre TYPICAL DEVICE BREAKPOINTS
+RECOMENDAÇÕES DO W3C(MAS TEM QUE ATUALIZAR PARA VE SE NÃO MUDOU
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desctop: 992px até 1200px
+Grandes telas: acima de 1200px*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{   body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 80vw;        
+    } 
+    
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) 
+{   body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login {
+        width: 950vw;        
+    } 
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > formulario {
+        float: right;
+        width: 50%;
+    }
+}
